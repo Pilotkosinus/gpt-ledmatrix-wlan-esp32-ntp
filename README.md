@@ -3,7 +3,7 @@
 In dieser ausführlichen Dokumentation wird der bereitgestellte Code Schritt für Schritt erläutert. Der Code zeigt die aktuelle Zeit, die von einem NTP-Server (Network Time Protocol) abgerufen wurde, auf einem LED Dot Matrix Display an. Das Programm verwendet die ESP32 WiFi-Bibliothek, um eine Verbindung zum Internet herzustellen, und die NTPClient- und MD_Parola-Bibliotheken, um die Zeitinformationen zu verarbeiten und auf dem Display anzuzeigen.
 Abhängigkeiten
 
-## `Dieser Abschnitt beschreibt die verwendeten Bibliotheken und deren Funktionen:
+## Dieser Abschnitt beschreibt die verwendeten Bibliotheken und deren Funktionen:
 
     `WiFi.h`: Diese Bibliothek ist Teil des ESP32-Standard-SDK und ermöglicht die Verbindung mit einem WiFi-Netzwerk.
     NTPClient.h: Die NTPClient-Bibliothek ermöglicht es, die Zeit von einem NTP-Server abzurufen und zu verarbeiten.
